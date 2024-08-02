@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Acceis/aspisec.git"
+    "url": "git+https://github.com/noraj/aspisec.git"
   },
   "keywords": [
     "cybersecurity",
@@ -17,12 +17,12 @@
     "infosec",
     "unicode"
   ],
-  "author": "Alexandre ZANNI (ACCEIS)",
+  "author": "Alexandre ZANNI (noraj)",
   "license": "Copyright",
   "bugs": {
-    "url": "https://github.com/Acceis/aspisec/issues"
+    "url": "https://github.com/noraj/aspisec/issues"
   },
-  "homepage": "https://github.com/Acceis/aspisec",
+  "homepage": "https://github.com/noraj/aspisec",
   "dependencies": {
     "@h-hg/docsify-image-caption": "^0.1.2",
     "del": "^7.1.0",

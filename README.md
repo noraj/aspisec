@@ -1,12 +1,12 @@
 # AspiSec
 
-[![GitHub forks](https://img.shields.io/github/forks/acceis/aspisec)](https://github.com/acceis/aspisec/network)
-[![GitHub stars](https://img.shields.io/github/stars/acceis/aspisec)](https://github.com/acceis/aspisec/stargazers)
-[![GitHub license](https://img.shields.io/github/license/acceis/aspisec)](https://github.com/acceis/aspisec/blob/master/LICENSE.txt)
+[![GitHub forks](https://img.shields.io/github/forks/noraj/aspisec)](https://github.com/noraj/aspisec/network)
+[![GitHub stars](https://img.shields.io/github/stars/noraj/aspisec)](https://github.com/noraj/aspisec/stargazers)
+[![GitHub license](https://img.shields.io/github/license/noraj/aspisec)](https://github.com/noraj/aspisec/blob/master/LICENSE.txt)
 [![Rawsec's CyberSecurity Inventory](https://inventory.raw.pm/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.raw.pm/tools.html#aspisec)
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/acceis/aspisec/ruby.yml?branch=master)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/acceis/aspisec)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/noraj/aspisec/ruby.yml?branch=master)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/noraj/aspisec)
 
 ![AspiSec logo](docs/_media/logo-aspisec.jpg)
 
@@ -14,7 +14,7 @@
 
 ## Features
 
-- [25 tools / modules](https://acceis.github.io/aspisec/#/pages/tools) supported
+- [25 tools / modules](https://noraj.github.io/aspisec/#/pages/tools) supported
 - Modularity: the comprehensive configuration file let you fine tune the behavior for every module
 - Extensible: the framework design makes it easy to add a new module
 - Nice by default: default values have been carefully chosen to reflect the most expected and common behavior
@@ -26,16 +26,16 @@
 gem install aspisec
 ```
 
-Check the [installation](https://acceis.github.io/aspisec/#/pages/install) page on the documentation for more details.
+Check the [installation](https://noraj.github.io/aspisec/#/pages/install) page on the documentation for more details.
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/aspisec.svg)](https://repology.org/project/aspisec/versions)
 [![Gem Version](https://badge.fury.io/rb/aspisec.svg)](https://badge.fury.io/rb/aspisec)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/acceis/aspisec)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/noraj/aspisec)
 
 ## Documentation
 
-Homepage / Documentation: https://acceis.github.io/aspisec/
+Homepage / Documentation: https://noraj.github.io/aspisec/
 
 ## Author
 
-Made by Alexandre ZANNI ([@noraj](https://pwn.by/noraj/)) at [ACCEIS](https://www.acceis.fr/).
+Made by Alexandre ZANNI ([@noraj](https://pwn.by/noraj/)). Forked from [acceis/aspisec](https://github.com/acceis/aspisec).

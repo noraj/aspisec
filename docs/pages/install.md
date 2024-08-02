@@ -69,7 +69,7 @@ $ gem install --development aspisec
 Just replace `x.x.x` with the gem version you see after `gem build`.
 
 ```
-$ git clone https://github.com/acceis/aspisec.git aspisec
+$ git clone https://github.com/noraj/aspisec.git aspisec
 $ cd aspisec
 $ gem install bundler
 $ bundler install

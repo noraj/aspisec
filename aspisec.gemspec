@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
                     'various cache and log files.'
   s.authors       = ['Alexandre ZANNI']
   s.email         = 'alexandre.zanni@europe.com'
-  s.homepage      = 'https://acceis.github.io/aspisec/'
+  s.homepage      = 'https://noraj.github.io/aspisec/'
   s.license       = 'MIT'
 
   s.files         = Dir['bin-ruby/*', 'lib-ruby/**/*.rb', 'LICENSE']
@@ -22,11 +22,11 @@ Gem::Specification.new do |s|
 
   s.metadata = {
     'yard.run' => 'yard',
-    'bug_tracker_uri' => 'https://github.com/acceis/aspisec/issues',
-    'changelog_uri' => 'https://github.com/acceis/aspisec/blob/master/docs/CHANGELOG.md',
-    'documentation_uri' => 'https://acceis.github.io/aspisec/ruby/Aspisec',
-    'homepage_uri' => 'https://acceis.github.io/aspisec/',
-    'source_code_uri' => 'https://github.com/acceis/aspisec/',
+    'bug_tracker_uri' => 'https://github.com/noraj/aspisec/issues',
+    'changelog_uri' => 'https://github.com/noraj/aspisec/blob/master/docs/CHANGELOG.md',
+    'documentation_uri' => 'https://noraj.github.io/aspisec/ruby/Aspisec',
+    'homepage_uri' => 'https://noraj.github.io/aspisec/',
+    'source_code_uri' => 'https://github.com/noraj/aspisec/',
     'rubygems_mfa_required' => 'true'
   }
 

@@ -18,7 +18,7 @@ $ docsify serve ../docs
 
 The output directory of the library documentation will be `docs/ruby`.
 
-You can consult it online [here](https://acceis.github.io/aspisec/ruby/).
+You can consult it online [here](https://noraj.github.io/aspisec/ruby/).
 
 ### Build & serve locally
 
