@@ -32,8 +32,6 @@ PKGBUILD: [aspisec](https://github.com/BlackArch/blackarch/blob/master/packages/
 
 ### **ArchLinux**
 
-!> **Warning**: not published yet
-
 Manually:
 
 ```
