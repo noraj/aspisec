@@ -126,7 +126,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
-    webrick (1.8.2)
+    webrick (1.9.0)
     wisper (2.0.1)
     yard-coderay (0.1.0)
       coderay
@@ -148,7 +148,7 @@ DEPENDENCIES
   sxdg (~> 1.0)
   tty-logger (~> 0.6)
   tty-prompt (~> 0.23)
-  webrick (~> 1.8)
+  webrick (~> 1.9)
   yard!
   yard-coderay (~> 0.1)
 
