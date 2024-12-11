@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ['>= 3.1.0', '< 4.0']
 
-  s.add_runtime_dependency('activesupport', '~> 7.1', '>= 7.1.3.2') # for human-reabdle formater helper
+  s.add_runtime_dependency('activesupport', '>= 7.1.3.2', '< 9.0') # for human-reabdle formater helper
   s.add_runtime_dependency('docopt', '~> 0.6') # for argument parsing
   s.add_runtime_dependency('pastel', '~> 0.8') # for colorized output
   s.add_runtime_dependency('sxdg', '~> 1.0') # for XDG Base Directory resolution
