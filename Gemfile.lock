@@ -79,7 +79,7 @@ GEM
     reverse_markdown (3.0.0)
       nokogiri
     rexml (3.4.0)
-    rubocop (1.70.0)
+    rubocop (1.71.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -148,7 +148,7 @@ DEPENDENCIES
   commonmarker (~> 2.0)
   docopt (~> 0.6)
   pastel (~> 0.8)
-  rubocop (~> 1.70)
+  rubocop (~> 1.71)
   solargraph (~> 0.51)
   sxdg (~> 1.0)
   tty-logger (~> 0.6)
