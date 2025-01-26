@@ -1,5 +1,9 @@
 ## [unreleased]
 
+- **Chore**:
+  - Add Ruby 3.4 support
+    - Add fileutils as dependency as it was moved out from stdlib
+
 ## [0.1.0]
 
 - **New modules**

@@ -5,6 +5,7 @@ Dir[File.join(__dir__, 'configs', '*.rb')].each { |f| require(f) }
 # stdlib
 require 'yaml'
 # third-party
+require 'fileutils'
 require 'sxdg'
 require 'tty-logger'
 

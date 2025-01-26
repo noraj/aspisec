@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ['3.3', '3.2', '3.1']
+        ruby-version: ['3.4', '3.3', '3.2', '3.1']
     env:
       BUNDLE_WITHOUT: docs development # https://bundler.io/v1.5/groups.html
     steps:
@@ -33,3 +33,5 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Run lint
       run: bundle exec rubocop
+    - name: Test running the tool
+      run: bundle exec ruby -Ilib-ruby -raspisec bin-ruby/aspisec list
