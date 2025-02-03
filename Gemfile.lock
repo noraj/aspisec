@@ -95,7 +95,7 @@ GEM
       parser (>= 3.3.1.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    solargraph (0.51.1)
+    solargraph (0.51.2)
       backport (~> 1.2)
       benchmark
       bundler (~> 2.0)
