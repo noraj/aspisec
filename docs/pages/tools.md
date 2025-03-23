@@ -6,6 +6,7 @@ The tools handled by Aspisec are (in alphabetical order):
 - [Bloodhound](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/Bloodhound)
 - [Crackmapexec](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/Crackmapexec)
 - [dbgate](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/Dbgate)
+- [FileZilla](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/Filezilla)
 - [ffuf](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/Ffuf)
 - [Hashcat](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/Hashcat)
 - [John](https://noraj.github.io/aspisec/ruby/Aspisec/Modules/John)

@@ -72,7 +72,8 @@ module Aspisec
         'ffuf' => Configs::FFUF,
         'recaf' => Configs::RECAF,
         'dbgate' => Configs::DBGATE,
-        'home-history-files' => Configs::HOME_HISTORY_FILES
+        'home-history-files' => Configs::HOME_HISTORY_FILES,
+        'filezilla' => Configs::FILEZILLA
       },
       'audit' => {
         'enabled' => false,

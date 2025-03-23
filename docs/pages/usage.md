@@ -6,7 +6,7 @@
 
 ```
 $ aspisec -h
-AspiSec v0.1.0
+AspiSec v0.2.0
 
 Usage:
   aspisec [options] clean
@@ -48,31 +48,32 @@ By default, it will be interactive, the description of each file / directory wil
 
 ```
 $ aspisec list
-✅ : amass                       ✅ logs         ✅ database   
-✅ : mongodb-compass             ✅ logs       
-✅ : mongodb-mongosh             ✅ logs         ✅ history    
-✅ : ncrack                      ✅ restore    
-✅ : netexec                     ✅ logs         ✅ screenshots  ✅ workspaces 
-✅ : recaf                       ✅ classpath    ✅ logs       
-✅ : remmina                     ❌ configs    
-❌ : bloodhound                  ✅ database     ✅ transactions
-✅ : semgrep                     ✅ logs1        ✅ logs2      
-✅ : crackmapexec                ✅ logs         ✅ screenshots  ✅ workspaces 
-✅ : spiderfoot                  ✅ database     ✅ logs       
-✅ : sqlmap                      ✅ history      ✅ logs       
-✅ : theharvester                ✅ stash      
-✅ : dbgate                      ❌ connections  ✅ logs       
-✅ : weevely                     ✅ history      ✅ sessions     ✅ logs       
-✅ : ffuf                        ✅ history    
-✅ : whatwaf                     ✅ database   
-✅ : hashcat                     ✅ sessions     ✅ potfile      ❌ dict_cache 
-✅ : home-history-files          ✅ python       ✅ postgresql   ✅ ruby-irb     ✅ ruby-rdbg    ✅ redis-cli    ❌ bash         ❌ zsh          ❌ zsh-alt    
 ✅ : john                        ✅ logs         ✅ potfile    
 ✅ : jwt_tool                    ✅ logs       
 ✅ : lsassy                      ✅ masterkeys   ✅ tickets    
 ✅ : manspider                   ✅ logs         ✅ loot       
+✅ : amass                       ✅ logs         ✅ database   
 ✅ : metasploit                  ✅ history      ✅ logs         ✅ loot         ✅ meterpreter
-✅ : mobsf                       ✅ logs         ✅ downloads    ✅ uploads      ✅ database 
+✅ : mobsf                       ✅ logs         ✅ downloads    ✅ uploads      ✅ database   
+✅ : mongodb-compass             ✅ logs       
+✅ : mongodb-mongosh             ✅ logs         ✅ history    
+✅ : ncrack                      ✅ restore    
+❌ : bloodhound                  ✅ database     ✅ transactions
+✅ : netexec                     ✅ logs         ✅ screenshots  ✅ workspaces 
+✅ : recaf                       ✅ classpath    ✅ logs       
+✅ : crackmapexec                ✅ logs         ✅ screenshots  ✅ workspaces 
+✅ : remmina                     ❌ configs    
+✅ : semgrep                     ✅ logs1        ✅ logs2      
+✅ : dbgate                      ❌ connections  ✅ logs       
+✅ : spiderfoot                  ✅ database     ✅ logs       
+✅ : ffuf                        ✅ history    
+✅ : sqlmap                      ✅ history      ✅ logs       
+✅ : filezilla                   ✅ connexions   ❌ config       ❌ queue      
+✅ : theharvester                ✅ stash      
+✅ : weevely                     ✅ history      ✅ sessions     ✅ logs       
+✅ : whatwaf                     ✅ database   
+✅ : hashcat                     ✅ sessions     ✅ potfile      ❌ dict_cache 
+✅ : home-history-files          ✅ python       ✅ postgresql   ✅ ruby-irb     ✅ ruby-rdbg    ✅ redis-cli    ❌ bash         ❌ zsh          ❌ zsh-alt
 ```
 
 ## Library
