@@ -7,6 +7,7 @@ Features:
     - requires modification to the config class
   - 🟨 autoclean and describe override
 - Configuration
+  - 🟥 manage configuration update
   - 🟨 prompt color configurable https://github.com/piotrmurach/tty-prompt?tab=readme-ov-file#3-settings
   - 🟨 separator configurable
 - Features

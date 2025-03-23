@@ -2,16 +2,16 @@
 
 ## Quick install
 
-```
-$ gem install aspisec
+```bash
+gem install aspisec
 ```
 
 ## Default usage: CLI
 
 Start default interactive cleaning.
 
-```
-$ aspisec clean
+```bash
+aspisec clean
 ```
 
 ## Default usage: library

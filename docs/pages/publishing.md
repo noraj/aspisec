@@ -2,8 +2,8 @@
 
 Check the **linter**:
 
-```
-$ bundle exec rubocop -a
+```bash
+bundle exec rubocop -a
 ```
 
 Update the version in `lib-ruby/aspisec/version.rb`.
@@ -16,30 +16,30 @@ Update the documentation, at least:
 
 On new release don't forget to rebuild the **library documentation**:
 
-```
-$ bundle exec yard doc
+```bash
+bundle exec yard doc
 ```
 
 Create an **annotated git tag**:
 
-```
-$ git tag -a v1.5.0
+```bash
+git tag -a v0.2.0
 ```
 
 Push the changes including the tags:
 
-```
-$ git push --follow-tags
+```bash
+git push --follow-tags
 ```
 
 Build the **gem**:
 
-```
-$ gem build aspisec.gemspec
+```bash
+gem build aspisec.gemspec
 ```
 
 Push the new gem release on **RubyGems** See https://guides.rubygems.org/publishing/.
 
-```
-$ gem push aspisec-1.5.0.gem
+```bash
+gem push aspisec-0.2.0.gem
 ```

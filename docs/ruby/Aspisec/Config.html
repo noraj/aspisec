@@ -95,7 +95,7 @@
   <dl>
     <dt>Defined in:</dt>
     <dd>lib-ruby/aspisec/config.rb<span class="defines">,<br />
-  lib-ruby/aspisec/configs/ffuf.rb,<br /> lib-ruby/aspisec/configs/john.rb,<br /> lib-ruby/aspisec/configs/amass.rb,<br /> lib-ruby/aspisec/configs/mobsf.rb,<br /> lib-ruby/aspisec/configs/recaf.rb,<br /> lib-ruby/aspisec/configs/dbgate.rb,<br /> lib-ruby/aspisec/configs/lsassy.rb,<br /> lib-ruby/aspisec/configs/ncrack.rb,<br /> lib-ruby/aspisec/configs/sqlmap.rb,<br /> lib-ruby/aspisec/configs/hashcat.rb,<br /> lib-ruby/aspisec/configs/netexec.rb,<br /> lib-ruby/aspisec/configs/remmina.rb,<br /> lib-ruby/aspisec/configs/semgrep.rb,<br /> lib-ruby/aspisec/configs/weevely.rb,<br /> lib-ruby/aspisec/configs/whatwaf.rb,<br /> lib-ruby/aspisec/configs/jwt_tool.rb,<br /> lib-ruby/aspisec/configs/manspider.rb,<br /> lib-ruby/aspisec/configs/bloodhound.rb,<br /> lib-ruby/aspisec/configs/metasploit.rb,<br /> lib-ruby/aspisec/configs/spiderfoot.rb,<br /> lib-ruby/aspisec/configs/crackmapexec.rb,<br /> lib-ruby/aspisec/configs/theharvester.rb,<br /> lib-ruby/aspisec/configs/mongodb_compass.rb,<br /> lib-ruby/aspisec/configs/mongodb_mongosh.rb,<br /> lib-ruby/aspisec/configs/home_history_files.rb</span>
+  lib-ruby/aspisec/configs/ffuf.rb,<br /> lib-ruby/aspisec/configs/john.rb,<br /> lib-ruby/aspisec/configs/amass.rb,<br /> lib-ruby/aspisec/configs/mobsf.rb,<br /> lib-ruby/aspisec/configs/recaf.rb,<br /> lib-ruby/aspisec/configs/dbgate.rb,<br /> lib-ruby/aspisec/configs/lsassy.rb,<br /> lib-ruby/aspisec/configs/ncrack.rb,<br /> lib-ruby/aspisec/configs/sqlmap.rb,<br /> lib-ruby/aspisec/configs/hashcat.rb,<br /> lib-ruby/aspisec/configs/netexec.rb,<br /> lib-ruby/aspisec/configs/remmina.rb,<br /> lib-ruby/aspisec/configs/semgrep.rb,<br /> lib-ruby/aspisec/configs/weevely.rb,<br /> lib-ruby/aspisec/configs/whatwaf.rb,<br /> lib-ruby/aspisec/configs/jwt_tool.rb,<br /> lib-ruby/aspisec/configs/filezilla.rb,<br /> lib-ruby/aspisec/configs/manspider.rb,<br /> lib-ruby/aspisec/configs/bloodhound.rb,<br /> lib-ruby/aspisec/configs/metasploit.rb,<br /> lib-ruby/aspisec/configs/spiderfoot.rb,<br /> lib-ruby/aspisec/configs/crackmapexec.rb,<br /> lib-ruby/aspisec/configs/theharvester.rb,<br /> lib-ruby/aspisec/configs/mongodb_compass.rb,<br /> lib-ruby/aspisec/configs/mongodb_mongosh.rb,<br /> lib-ruby/aspisec/configs/home_history_files.rb</span>
 </dd>
   </dl>
   
@@ -197,7 +197,8 @@
     <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">ffuf</span><span style="color:#710">'</span></span> =&gt; <span style="color:#036;font-weight:bold">Configs</span>::<span style="color:#036;font-weight:bold">FFUF</span>,
     <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">recaf</span><span style="color:#710">'</span></span> =&gt; <span style="color:#036;font-weight:bold">Configs</span>::<span style="color:#036;font-weight:bold">RECAF</span>,
     <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">dbgate</span><span style="color:#710">'</span></span> =&gt; <span style="color:#036;font-weight:bold">Configs</span>::<span style="color:#036;font-weight:bold">DBGATE</span>,
-    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">home-history-files</span><span style="color:#710">'</span></span> =&gt; <span style="color:#036;font-weight:bold">Configs</span>::<span style="color:#036;font-weight:bold">HOME_HISTORY_FILES</span>
+    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">home-history-files</span><span style="color:#710">'</span></span> =&gt; <span style="color:#036;font-weight:bold">Configs</span>::<span style="color:#036;font-weight:bold">HOME_HISTORY_FILES</span>,
+    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">filezilla</span><span style="color:#710">'</span></span> =&gt; <span style="color:#036;font-weight:bold">Configs</span>::<span style="color:#036;font-weight:bold">FILEZILLA</span>
   },
   <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">audit</span><span style="color:#710">'</span></span> =&gt; {
     <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">enabled</span><span style="color:#710">'</span></span> =&gt; <span style="color:#069">false</span>,
@@ -543,8 +544,6 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-101
-102
 103
 104
 105
@@ -554,10 +553,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
 109
 110
 111
-112</pre>
+112
+113
+114</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 101</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 103</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">initialize</span>(logger = <span style="color:#069">nil</span>)
   <span style="color:#777"># Set log level</span>
@@ -625,12 +626,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-86
-87
-88</pre>
+88
+89
+90</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 86</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 88</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">conf</span>
   <span style="color:#33B">@conf</span>
@@ -724,8 +725,6 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-192
-193
 194
 195
 196
@@ -736,10 +735,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
 201
 202
 203
-204</pre>
+204
+205
+206</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 192</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 194</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#069">self</span>.<span style="color:#06B;font-weight:bold">expand_path_variables</span>(path)
   <span style="color:#080;font-weight:bold">return</span> path <span style="color:#080;font-weight:bold">unless</span> path.is_a?(<span style="color:#036;font-weight:bold">String</span>) <span style="color:#777"># not a path, let untouched</span>
@@ -807,8 +808,6 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-116
-117
 118
 119
 120
@@ -828,10 +827,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
 134
 135
 136
-137</pre>
+137
+138
+139</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 116</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 118</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">check_version</span>
   version = <span style="color:#33B">@conf</span>.dig(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">aspisec</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">version</span><span style="color:#710">'</span></span>)
@@ -898,17 +899,17 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-171
-172
 173
 174
 175
 176
 177
-178</pre>
+178
+179
+180</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 171</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 173</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">config_exist?</span>
   <span style="color:#777"># Logging this floods debug info and is not meaningful</span>
@@ -965,12 +966,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-165
-166
-167</pre>
+167
+168
+169</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 165</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 167</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">config_filepath</span>
   <span style="color:#036;font-weight:bold">File</span>.join(<span style="color:#036;font-weight:bold">SXDG</span>::<span style="color:#036;font-weight:bold">XDG_CONFIG_HOME</span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">aspisec</span><span style="color:#710">'</span></span>, <span style="color:#036;font-weight:bold">CONFIG_FILENAME</span>) <span style="color:#777"># /home/noraj/.config/aspisec/aspisec.config.yaml</span>
@@ -1005,18 +1006,18 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-153
-154
 155
 156
 157
 158
 159
 160
-161</pre>
+161
+162
+163</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 153</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 155</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">create_config</span>
   <span style="color:#080;font-weight:bold">return</span> <span style="color:#080;font-weight:bold">if</span> config_exist?
@@ -1060,8 +1061,6 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-208
-209
 210
 211
 212
@@ -1073,10 +1072,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
 218
 219
 220
-221</pre>
+221
+222
+223</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 208</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 210</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">expand_path_conf!</span>
   <span style="color:#33B">@conf</span>[<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">tools</span><span style="color:#710">'</span></span>].each_key <span style="color:#080;font-weight:bold">do</span> |tool|
@@ -1128,12 +1129,12 @@ See <span class='object_link'><a href="Logger.html#LOG_LEVEL-constant" title="As
       <pre class="lines">
 
 
-181
-182
-183</pre>
+183
+184
+185</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 181</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 183</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">expand_path_variables</span>(path)
   <span style="color:#036;font-weight:bold">Config</span>.expand_path_variables(path)
@@ -1186,18 +1187,18 @@ or <code>nil</code> if the configuration file doesn't exist</p>
       <pre class="lines">
 
 
-142
-143
 144
 145
 146
 147
 148
 149
-150</pre>
+150
+151
+152</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 142</span>
+      <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/config.rb', line 144</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">load_config</span>
   <span style="color:#080;font-weight:bold">if</span> config_exist?
@@ -1218,9 +1219,9 @@ or <code>nil</code> if the configuration file doesn't exist</p>
 </div>
 
       <div id="footer">
-  Generated on Fri Aug  2 19:26:27 2024 by
+  Generated on Sun Mar 23 18:13:36 2025 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.36 (ruby-3.3.0).
+  0.9.36 (ruby-3.4.1).
 </div>
 
     </div>

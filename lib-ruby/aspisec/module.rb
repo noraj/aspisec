@@ -55,7 +55,7 @@ module Aspisec
     def check_config
       return unless @conf.nil?
 
-      message = "Configuration for module #{@name} is missing." \
+      message = "Configuration for module #{@name} is missing. " \
                 'You may use an old version of the configuration file.'
       @logger.error(message, app: @name)
       raise 'Missing configuration for the current module.'

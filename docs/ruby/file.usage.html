@@ -61,7 +61,7 @@
 <h2><a href="#cli" aria-hidden="true" class="anchor" id="cli"></a>CLI</h2>
 <h3><a href="#general-help" aria-hidden="true" class="anchor" id="general-help"></a>General help</h3>
 <pre class="code ruby"><code class="ruby"><span style="color:#F00;background-color:#FAA">$</span> aspisec -h
-<span style="color:#036;font-weight:bold">AspiSec</span> v0.<span style="color:#F00;background-color:#FAA">1.0</span>
+<span style="color:#036;font-weight:bold">AspiSec</span> v0.<span style="color:#F00;background-color:#FAA">2.0</span>
 
 <span style="color:#606">Usage</span>:
   aspisec [options] clean
@@ -94,31 +94,32 @@
 <p>By default, it will be interactive, the description of each file / directory will be displayed, etc. If you want to change the default behavior, see <a href="pages/config.md">config</a>.</p>
 <h3><a href="#list" aria-hidden="true" class="anchor" id="list"></a>List</h3>
 <pre class="code ruby"><code class="ruby"><span style="color:#F00;background-color:#FAA">$</span> aspisec list
-✅ : amass                       ✅ logs         ✅ database   
-✅ : mongodb-compass             ✅ logs       
-✅ : mongodb-mongosh             ✅ logs         ✅ history    
-✅ : ncrack                      ✅ restore    
-✅ : netexec                     ✅ logs         ✅ screenshots  ✅ workspaces 
-✅ : recaf                       ✅ classpath    ✅ logs       
-✅ : remmina                     ❌ configs    
-❌ : bloodhound                  ✅ database     ✅ transactions
-✅ : semgrep                     ✅ logs1        ✅ logs2      
-✅ : crackmapexec                ✅ logs         ✅ screenshots  ✅ workspaces 
-✅ : spiderfoot                  ✅ database     ✅ logs       
-✅ : sqlmap                      ✅ history      ✅ logs       
-✅ : theharvester                ✅ stash      
-✅ : dbgate                      ❌ connections  ✅ logs       
-✅ : weevely                     ✅ history      ✅ sessions     ✅ logs       
-✅ : ffuf                        ✅ history    
-✅ : whatwaf                     ✅ database   
-✅ : hashcat                     ✅ sessions     ✅ potfile      ❌ dict_cache 
-✅ : home-history-files          ✅ python       ✅ postgresql   ✅ ruby-irb     ✅ ruby-rdbg    ✅ redis-cli    ❌ bash         ❌ zsh          ❌ zsh-alt    
 ✅ : john                        ✅ logs         ✅ potfile    
 ✅ : jwt_tool                    ✅ logs       
 ✅ : lsassy                      ✅ masterkeys   ✅ tickets    
 ✅ : manspider                   ✅ logs         ✅ loot       
+✅ : amass                       ✅ logs         ✅ database   
 ✅ : metasploit                  ✅ history      ✅ logs         ✅ loot         ✅ meterpreter
-✅ : mobsf                       ✅ logs         ✅ downloads    ✅ uploads      ✅ database 
+✅ : mobsf                       ✅ logs         ✅ downloads    ✅ uploads      ✅ database   
+✅ : mongodb-compass             ✅ logs       
+✅ : mongodb-mongosh             ✅ logs         ✅ history    
+✅ : ncrack                      ✅ restore    
+❌ : bloodhound                  ✅ database     ✅ transactions
+✅ : netexec                     ✅ logs         ✅ screenshots  ✅ workspaces 
+✅ : recaf                       ✅ classpath    ✅ logs       
+✅ : crackmapexec                ✅ logs         ✅ screenshots  ✅ workspaces 
+✅ : remmina                     ❌ configs    
+✅ : semgrep                     ✅ logs1        ✅ logs2      
+✅ : dbgate                      ❌ connections  ✅ logs       
+✅ : spiderfoot                  ✅ database     ✅ logs       
+✅ : ffuf                        ✅ history    
+✅ : sqlmap                      ✅ history      ✅ logs       
+✅ : filezilla                   ✅ connexions   ❌ config       ❌ queue      
+✅ : theharvester                ✅ stash      
+✅ : weevely                     ✅ history      ✅ sessions     ✅ logs       
+✅ : whatwaf                     ✅ database   
+✅ : hashcat                     ✅ sessions     ✅ potfile      ❌ dict_cache 
+✅ : home-history-files          ✅ python       ✅ postgresql   ✅ ruby-irb     ✅ ruby-rdbg    ✅ redis-cli    ❌ bash         ❌ zsh          ❌ zsh-alt
 </code></pre>
 <h2><a href="#library" aria-hidden="true" class="anchor" id="library"></a>Library</h2>
 <p>The main class that <strong>does the job</strong> is <a href="https://noraj.github.io/aspisec/ruby/Aspisec/Clean">Aspisec::Clean</a>.</p>
@@ -128,9 +129,9 @@
 </div></div>
 
       <div id="footer">
-  Generated on Fri Aug  2 19:26:27 2024 by
+  Generated on Sun Mar 23 18:13:36 2025 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.36 (ruby-3.3.0).
+  0.9.36 (ruby-3.4.1).
 </div>
 
     </div>

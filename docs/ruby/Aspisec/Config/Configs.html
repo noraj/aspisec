@@ -79,7 +79,7 @@
   <dl>
     <dt>Defined in:</dt>
     <dd>lib-ruby/aspisec/configs/ffuf.rb<span class="defines">,<br />
-  lib-ruby/aspisec/configs/john.rb,<br /> lib-ruby/aspisec/configs/amass.rb,<br /> lib-ruby/aspisec/configs/mobsf.rb,<br /> lib-ruby/aspisec/configs/recaf.rb,<br /> lib-ruby/aspisec/configs/dbgate.rb,<br /> lib-ruby/aspisec/configs/lsassy.rb,<br /> lib-ruby/aspisec/configs/ncrack.rb,<br /> lib-ruby/aspisec/configs/sqlmap.rb,<br /> lib-ruby/aspisec/configs/hashcat.rb,<br /> lib-ruby/aspisec/configs/netexec.rb,<br /> lib-ruby/aspisec/configs/remmina.rb,<br /> lib-ruby/aspisec/configs/semgrep.rb,<br /> lib-ruby/aspisec/configs/weevely.rb,<br /> lib-ruby/aspisec/configs/whatwaf.rb,<br /> lib-ruby/aspisec/configs/jwt_tool.rb,<br /> lib-ruby/aspisec/configs/manspider.rb,<br /> lib-ruby/aspisec/configs/bloodhound.rb,<br /> lib-ruby/aspisec/configs/metasploit.rb,<br /> lib-ruby/aspisec/configs/spiderfoot.rb,<br /> lib-ruby/aspisec/configs/crackmapexec.rb,<br /> lib-ruby/aspisec/configs/theharvester.rb,<br /> lib-ruby/aspisec/configs/mongodb_compass.rb,<br /> lib-ruby/aspisec/configs/mongodb_mongosh.rb,<br /> lib-ruby/aspisec/configs/home_history_files.rb</span>
+  lib-ruby/aspisec/configs/john.rb,<br /> lib-ruby/aspisec/configs/amass.rb,<br /> lib-ruby/aspisec/configs/mobsf.rb,<br /> lib-ruby/aspisec/configs/recaf.rb,<br /> lib-ruby/aspisec/configs/dbgate.rb,<br /> lib-ruby/aspisec/configs/lsassy.rb,<br /> lib-ruby/aspisec/configs/ncrack.rb,<br /> lib-ruby/aspisec/configs/sqlmap.rb,<br /> lib-ruby/aspisec/configs/hashcat.rb,<br /> lib-ruby/aspisec/configs/netexec.rb,<br /> lib-ruby/aspisec/configs/remmina.rb,<br /> lib-ruby/aspisec/configs/semgrep.rb,<br /> lib-ruby/aspisec/configs/weevely.rb,<br /> lib-ruby/aspisec/configs/whatwaf.rb,<br /> lib-ruby/aspisec/configs/jwt_tool.rb,<br /> lib-ruby/aspisec/configs/filezilla.rb,<br /> lib-ruby/aspisec/configs/manspider.rb,<br /> lib-ruby/aspisec/configs/bloodhound.rb,<br /> lib-ruby/aspisec/configs/metasploit.rb,<br /> lib-ruby/aspisec/configs/spiderfoot.rb,<br /> lib-ruby/aspisec/configs/crackmapexec.rb,<br /> lib-ruby/aspisec/configs/theharvester.rb,<br /> lib-ruby/aspisec/configs/mongodb_compass.rb,<br /> lib-ruby/aspisec/configs/mongodb_mongosh.rb,<br /> lib-ruby/aspisec/configs/home_history_files.rb</span>
 </dd>
   </dl>
   
@@ -413,6 +413,30 @@
   }
 }.freeze</pre></dd>
       
+        <dt id="FILEZILLA-constant" class="">FILEZILLA =
+          
+        </dt>
+        <dd><pre class="code">{
+  <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">enabled</span><span style="color:#710">'</span></span> =&gt; <span style="color:#069">true</span>,
+  <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">location</span><span style="color:#710">'</span></span> =&gt; {
+    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">base</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">$XDG_CONFIG_HOME/filezilla</span><span style="color:#710">'</span></span>, <span style="color:#777"># ~/.config/filezilla</span>
+    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">connexions</span><span style="color:#710">'</span></span> =&gt; {
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">path</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">&lt;base&gt;/sitemanager.xml</span><span style="color:#710">'</span></span>,
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">description</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">Saved connexions settings including passwords.</span><span style="color:#710">'</span></span>
+    },
+    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">config</span><span style="color:#710">'</span></span> =&gt; {
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">enabled</span><span style="color:#710">'</span></span> =&gt; <span style="color:#069">false</span>,
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">path</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">&lt;base&gt;/filezilla.xml</span><span style="color:#710">'</span></span>,
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">description</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">Global configuration, contains site names.</span><span style="color:#710">'</span></span>
+    },
+    <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">queue</span><span style="color:#710">'</span></span> =&gt; {
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">enabled</span><span style="color:#710">'</span></span> =&gt; <span style="color:#069">false</span>,
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">path</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">&lt;base&gt;/queue.sqlite3</span><span style="color:#710">'</span></span>,
+      <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">description</span><span style="color:#710">'</span></span> =&gt; <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">Queue of files not downloaded/uploaded yet.</span><span style="color:#710">'</span></span>
+    }
+  }
+}.freeze</pre></dd>
+      
         <dt id="MANSPIDER-constant" class="">MANSPIDER =
           
         </dt>
@@ -651,9 +675,9 @@
 </div>
 
       <div id="footer">
-  Generated on Fri Aug  2 19:26:27 2024 by
+  Generated on Sun Mar 23 18:13:36 2025 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.36 (ruby-3.3.0).
+  0.9.36 (ruby-3.4.1).
 </div>
 
     </div>
