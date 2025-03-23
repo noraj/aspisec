@@ -23,7 +23,7 @@ bundle exec yard doc
 Create an **annotated git tag**:
 
 ```bash
-git tag -a v0.2.0
+git tag -a 0.2.0
 ```
 
 Push the changes including the tags:
