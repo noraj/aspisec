@@ -79,7 +79,7 @@ GEM
     rake-compiler-dock (1.9.1)
     rb_sys (0.9.111)
       rake-compiler-dock (= 1.9.1)
-    rbs (3.9.3)
+    rbs (3.9.4)
       logger
     regexp_parser (2.10.0)
     reverse_markdown (3.0.0)
@@ -101,7 +101,7 @@ GEM
       prism (~> 1.4)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    solargraph (0.54.3)
+    solargraph (0.54.4)
       backport (~> 1.2)
       benchmark (~> 0.4)
       bundler (~> 2.0)
