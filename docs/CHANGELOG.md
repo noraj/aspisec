@@ -1,4 +1,11 @@
-## [unreleased]
+## [0.3.0]
+
+- **Breaking changes**:
+  - Drop support for Ruby 3.1
+- Chore:
+  - Add support for Ruby 4.0
+  - Update dependencies
+  - Lint: Predicate method names now end with a `?`: `prompt_removal?`
 
 ## [0.2.0]
 

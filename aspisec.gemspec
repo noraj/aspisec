@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     'rubygems_mfa_required' => 'true'
   }
 
-  s.required_ruby_version = ['>= 3.1.0', '< 4.0']
+  s.required_ruby_version = ['>= 3.2.0', '< 5.0']
 
   s.add_runtime_dependency('activesupport', '>= 7.1.3.2', '< 9.0') # for human-reabdle formater helper
   s.add_runtime_dependency('docopt', '~> 0.6') # for argument parsing

@@ -29,7 +29,7 @@ module Aspisec
     # It will follow the configuration wether it has to display the description or not.
     # @param location [Aspisec::Module::Location]
     # @return [true|false]
-    def prompt_removal(location:)
+    def prompt_removal?(location:)
       puts "——— #{@painter.decorate(location.name, :cyan, :bold)} ———"
       puts_decorated('Path', location.path.to_s)
       puts_decorated('Type', file_type(location.path))
@@ -145,7 +145,7 @@ module Aspisec
     # Handles the manual deletion mode.
     # @param loc [Aspisec::Module::Location]
     def manual_delete(loc)
-      remove = prompt_removal(location: loc)
+      remove = prompt_removal?(location: loc)
       if remove
         delete_location(loc.path)
       else

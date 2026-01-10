@@ -15,7 +15,7 @@ group :runtime, :cli do
 end
 
 group :development, :install do
-  gem 'bundler', '~> 2.5'
+  gem 'bundler', '~> 4.0'
 end
 
 group :development, :test do
@@ -29,8 +29,10 @@ group :development, :lint do
 end
 
 group :development, :docs do
-  # Commonmarker 1.0 support https://github.com/lsegal/yard/issues/1528
-  gem 'commonmarker', '~> 2.0' # for markdown support in YARD
+  gem 'commonmarker', '~> 2.6', '>= 2.6.1' # for markdown support in YARD
+  gem 'irb' # https://github.com/lsegal/yard/issues/1636
+  gem 'logger' # https://github.com/lsegal/yard/issues/1636
+  gem 'ostruct' # https://github.com/lsegal/yard/issues/1636
   gem 'webrick', '~> 1.9' # web server for YARD
   # gem 'yard', ['>= 0.9.27', '< 0.10'] # lib documentation
   # https://github.com/lsegal/yard/issues/1528

@@ -313,7 +313,7 @@
         <li class="public ">
   <span class="summary_signature">
     
-      <a href="#prompt_removal-instance_method" title="#prompt_removal (instance method)">#<strong>prompt_removal</strong>(location:)  &#x21d2; true|false </a>
+      <a href="#prompt_removal%3F-instance_method" title="#prompt_removal? (instance method)">#<strong>prompt_removal?</strong>(location:)  &#x21d2; true|false </a>
     
 
     
@@ -1036,7 +1036,7 @@ It also don't take into consideration the size of the directory itself.</p>
       <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/clean.rb', line 147</span>
 
 <span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">manual_delete</span>(loc)
-  remove = prompt_removal(<span style="color:#606">location</span>: loc)
+  remove = prompt_removal?(<span style="color:#606">location</span>: loc)
   <span style="color:#080;font-weight:bold">if</span> remove
     delete_location(loc.path)
   <span style="color:#080;font-weight:bold">else</span>
@@ -1049,9 +1049,9 @@ It also don't take into consideration the size of the directory itself.</p>
 </div>
     
       <div class="method_details ">
-  <h3 class="signature " id="prompt_removal-instance_method">
+  <h3 class="signature " id="prompt_removal?-instance_method">
   
-    #<strong>prompt_removal</strong>(location:)  &#x21d2; <tt>true|false</tt> 
+    #<strong>prompt_removal?</strong>(location:)  &#x21d2; <tt>true|false</tt> 
   
 
   
@@ -1114,7 +1114,7 @@ It will follow the configuration wether it has to display the description or not
     <td>
       <pre class="code"><span class="info file"># File 'lib-ruby/aspisec/clean.rb', line 32</span>
 
-<span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">prompt_removal</span>(<span style="color:#606">location</span>:)
+<span style="color:#080;font-weight:bold">def</span> <span style="color:#06B;font-weight:bold">prompt_removal?</span>(<span style="color:#606">location</span>:)
   puts <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">——— </span><span style="background-color:hsla(0,0%,0%,0.07);color:black"><span style="font-weight:bold;color:#666">#{</span><span style="color:#33B">@painter</span>.decorate(location.name, <span style="color:#A60">:cyan</span>, <span style="color:#A60">:bold</span>)<span style="font-weight:bold;color:#666">}</span></span><span style="color:#D20"> ———</span><span style="color:#710">&quot;</span></span>
   puts_decorated(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">Path</span><span style="color:#710">'</span></span>, location.path.to_s)
   puts_decorated(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">Type</span><span style="color:#710">'</span></span>, file_type(location.path))
@@ -1468,9 +1468,9 @@ for any other cases</p>
 </div>
 
       <div id="footer">
-  Generated on Sun Mar 23 18:13:36 2025 by
+  Generated on Sat Jan 10 22:31:16 2026 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.36 (ruby-3.4.1).
+  0.9.36 (ruby-4.0.0).
 </div>
 
     </div>
