@@ -56,10 +56,10 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jaro_winkler (1.6.1)
-    json (2.18.0)
-    kramdown (2.5.1)
-      rexml (>= 3.3.9)
+    jaro_winkler (1.7.0)
+    json (2.18.1)
+    kramdown (2.5.2)
+      rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     language_server-protocol (3.17.0.5)
@@ -77,7 +77,7 @@ GEM
     open3 (0.2.1)
     ostruct (0.6.3)
     parallel (1.27.0)
-    parser (3.3.10.0)
+    parser (3.3.10.2)
       ast (~> 2.4.1)
       racc
     pastel (0.8.0)
@@ -85,7 +85,7 @@ GEM
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
-    prism (1.7.0)
+    prism (1.9.0)
     psych (5.3.1)
       date
       stringio
@@ -94,8 +94,9 @@ GEM
     rake-compiler-dock (1.11.0)
     rb_sys (0.9.124)
       rake-compiler-dock (= 1.11.0)
-    rbs (3.10.2)
+    rbs (3.10.3)
       logger
+      tsort
     rdoc (7.0.3)
       erb
       psych (>= 4.0.0)
@@ -103,7 +104,7 @@ GEM
     regexp_parser (2.11.3)
     reline (0.6.3)
       io-console (~> 0.5)
-    reverse_markdown (3.0.1)
+    reverse_markdown (3.0.2)
       nokogiri
     rexml (3.4.4)
     rubocop (1.82.1)
@@ -122,7 +123,7 @@ GEM
       prism (~> 1.7)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    solargraph (0.58.1)
+    solargraph (0.58.2)
       ast (~> 2.4.3)
       backport (~> 1.2)
       benchmark (~> 0.4)
@@ -193,7 +194,7 @@ DEPENDENCIES
   ostruct
   pastel (~> 0.8)
   rubocop (~> 1.81)
-  solargraph (~> 0.57)
+  solargraph (~> 0.58)
   sxdg (~> 1.0)
   tty-logger (~> 0.6)
   tty-prompt (~> 0.23)
