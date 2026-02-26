@@ -24,7 +24,7 @@ group :development, :test do
 end
 
 group :development, :lint do
-  gem 'rubocop', '~> 1.84'
+  gem 'rubocop', '~> 1.85'
   gem 'solargraph', '~> 0.58'
 end
 
