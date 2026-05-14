@@ -25,7 +25,7 @@ end
 
 group :development, :lint do
   gem 'rubocop', '~> 1.86'
-  gem 'solargraph', '~> 0.58'
+  gem 'solargraph', '~> 0.59'
 end
 
 group :development, :docs do
