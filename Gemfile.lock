@@ -99,7 +99,7 @@ GEM
       prism (~> 1.7)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    solargraph (0.59.0)
+    solargraph (0.59.1)
       ast (~> 2.4.3)
       backport (~> 1.2)
       benchmark (~> 0.4)
